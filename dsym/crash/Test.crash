@@ -1,0 +1,130 @@
+
+Incident Identifier: 0FAFE660-647B-4D1F-92C7-C212900476DB
+CrashReporter Key:   49bce071facc9163b71d2f14e6a2b6625fd5e9bb
+Hardware Model:      iPhone9,2
+Process:             Test [7900]
+Path:                /private/var/containers/Bundle/Application/2009FC3B-4BB5-4550-A8EF-A22EC36F295C/Test.app/Test
+Identifier:          com.qingang.Test
+Version:             1.0 (1)
+Code Type:           ARM-64 (Native)
+Role:                Foreground
+Parent Process:      launchd [1]
+Coalition:           com.qingang.Test [1276]
+
+Date/Time:           2022-01-13 13:19:07.4000 +0800
+Launch Time:         2022-01-13 13:19:04.0305 +0800
+OS Version:          iPhone OS 15.0 (19A346)
+Release Type:        User
+Baseband Version:    9.01.00
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Triggered by Thread:  0
+
+Application Specific Information:
+
+
+abort() called
+
+
+Last Exception Backtrace:
+0   CoreFoundation                	       0x1868f5cac 0x186864000 + 597164
+1   libobjc.A.dylib               	       0x19d964758 0x19d950000 + 83800
+2   CoreFoundation                	       0x1869c56d0 0x186864000 + 1447632
+3   CoreFoundation                	       0x18688fedc 0x186864000 + 179932
+4   CoreFoundation                	       0x18688f14c 0x186864000 + 176460
+5   Test                          	       0x1026b9904 0x1026b4000 + 22788
+6   Test                          	       0x1026b9588 0x1026b4000 + 21896
+7   libdispatch.dylib             	       0x1865c22f0 0x18655e000 + 410352
+8   libdispatch.dylib             	       0x1865649c8 0x18655e000 + 27080
+9   libdispatch.dylib             	       0x186576304 0x18655e000 + 99076
+10  libdispatch.dylib             	       0x18656e8ec 0x18655e000 + 67820
+11  CoreFoundation                	       0x1868b17f8 0x186864000 + 317432
+12  CoreFoundation                	       0x18686f0f8 0x186864000 + 45304
+13  CoreFoundation                	       0x186881d8c 0x186864000 + 122252
+14  GraphicsServices              	       0x1a098e9a0 0x1a098d000 + 6560
+15  UIKitCore                     	       0x1890b7018 0x188bc9000 + 5169176
+16  UIKitCore                     	       0x188e4b29c 0x188bc9000 + 2630300
+17  Test                          	       0x1026b9ca8 0x1026b4000 + 23720
+18  dyld                          	       0x1029ec190 0x1029d4000 + 98704
+
+Thread 0 name:   Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0   libsystem_kernel.dylib        	       0x1bfe52a48 0x1bfe4c000 + 27208
+1   libsystem_pthread.dylib       	       0x1e02868d8 0x1e027a000 + 51416
+2   libsystem_c.dylib             	       0x190d310c0 0x190d12000 + 127168
+3   libc++abi.dylib               	       0x19da59e1c 0x19da47000 + 77340
+4   libc++abi.dylib               	       0x19da4bbec 0x19da47000 + 19436
+5   libobjc.A.dylib               	       0x19d96a0c8 0x19d950000 + 106696
+6   libc++abi.dylib               	       0x19da592cc 0x19da47000 + 74444
+7   libc++abi.dylib               	       0x19da59274 0x19da47000 + 74356
+8   libdispatch.dylib             	       0x1865c2304 0x18655e000 + 410372
+9   libdispatch.dylib             	       0x1865649c8 0x18655e000 + 27080
+10  libdispatch.dylib             	       0x186576304 0x18655e000 + 99076
+11  libdispatch.dylib             	       0x18656e8ec 0x18655e000 + 67820
+12  CoreFoundation                	       0x1868b17f8 0x186864000 + 317432
+13  CoreFoundation                	       0x18686f0f8 0x186864000 + 45304
+14  CoreFoundation                	       0x186881d8c 0x186864000 + 122252
+15  GraphicsServices              	       0x1a098e9a0 0x1a098d000 + 6560
+16  UIKitCore                     	       0x1890b7018 0x188bc9000 + 5169176
+17  UIKitCore                     	       0x188e4b29c 0x188bc9000 + 2630300
+18  Test                          	       0x1026b9ca8 0x1026b4000 + 23720
+19  dyld                          	       0x1029ec190 0x1029d4000 + 98704
+
+Thread 1:
+0   libsystem_pthread.dylib       	       0x1e027aa9c 0x1e027a000 + 2716
+
+Thread 2:
+0   libsystem_pthread.dylib       	       0x1e027aa9c 0x1e027a000 + 2716
+
+Thread 3 name:  com.apple.uikit.eventfetch-thread
+Thread 3:
+0   libsystem_kernel.dylib        	       0x1bfe4cb70 0x1bfe4c000 + 2928
+1   libsystem_kernel.dylib        	       0x1bfe4d194 0x1bfe4c000 + 4500
+2   CoreFoundation                	       0x18686aad0 0x186864000 + 27344
+3   CoreFoundation                	       0x18686ebb8 0x186864000 + 43960
+4   CoreFoundation                	       0x186881d8c 0x186864000 + 122252
+5   Foundation                    	       0x187fc0b6c 0x187fa9000 + 97132
+6   Foundation                    	       0x187fffd6c 0x187fa9000 + 355692
+7   UIKitCore                     	       0x1890349c0 0x188bc9000 + 4635072
+8   Foundation                    	       0x18800d64c 0x187fa9000 + 411212
+9   libsystem_pthread.dylib       	       0x1e027c458 0x1e027a000 + 9304
+10  libsystem_pthread.dylib       	       0x1e027aab0 0x1e027a000 + 2736
+
+Thread 4:
+0   libsystem_pthread.dylib       	       0x1e027aa9c 0x1e027a000 + 2716
+
+Thread 5:
+0   libsystem_pthread.dylib       	       0x1e027aa9c 0x1e027a000 + 2716
+
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x0000000000000000   x3: 0x0000000000000000
+    x4: 0x000000019da5ce55   x5: 0x000000016d74a2b0   x6: 0x000000000000006e   x7: 0x0000000000000000
+    x8: 0x0000000102a34580   x9: 0x56c6c7d7e2f637ae  x10: 0x000000016d749d10  x11: 0x000000000000000b
+   x12: 0x0000000000000000  x13: 0x0000000000000000  x14: 0x0000000000000010  x15: 0x0000000000000001
+   x16: 0x0000000000000148  x17: 0x0000000000000000  x18: 0x0000000000000000  x19: 0x0000000000000006
+   x20: 0x0000000000000103  x21: 0x0000000102a34660  x22: 0x0000000000000000  x23: 0x0000000000000110
+   x24: 0x0000000000000000  x25: 0x0000000102a34660  x26: 0x0000000000080008  x27: 0x0000000000000002
+   x28: 0x0000000102a34700   fp: 0x000000016d74a220   lr: 0x00000001e02868d8
+    sp: 0x000000016d74a200   pc: 0x00000001bfe52a48 cpsr: 0x40000000
+   far: 0x00000001f75ba0d0  esr: 0x56000080  Address size fault
+
+Binary Images:
+       0x1bfe4c000 -        0x1bfe7dfff libsystem_kernel.dylib arm64  <83a7e9554c943d9d9c1163fe9c36fbd7> /usr/lib/system/libsystem_kernel.dylib
+       0x1e027a000 -        0x1e0289fff libsystem_pthread.dylib arm64  <c685b49359ff3f13a9b33d3bb868ccd5> /usr/lib/system/libsystem_pthread.dylib
+       0x190d12000 -        0x190d8cfff libsystem_c.dylib arm64  <b88a565bccaf3f569089e56cdcf1b5e6> /usr/lib/system/libsystem_c.dylib
+       0x19da47000 -        0x19da5ffff libc++abi.dylib arm64  <606e575db3e13ed283acbb5021a54808> /usr/lib/libc++abi.dylib
+       0x19d950000 -        0x19d985fff libobjc.A.dylib arm64  <aaf2058b0b5d35aca9b881383e71814b> /usr/lib/libobjc.A.dylib
+       0x18655e000 -        0x1865e0fff libdispatch.dylib arm64  <5d722afcfb8c3769bf66167bb94a6133> /usr/lib/system/libdispatch.dylib
+       0x186864000 -        0x186c9efff CoreFoundation arm64  <fe94d75f5f1d3127ba500161d8817ee6> /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+       0x1a098d000 -        0x1a0995fff GraphicsServices arm64  <87b24bb5a3dd358d9abba1f70544a383> /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+       0x188bc9000 -        0x18a350fff UIKitCore arm64  <3f83ef9a74923feca4865fc2a1e1b092> /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+       0x1026b4000 -        0x1026bbfff Test arm64  <07fd42b7e5493bc3ac7146ddbbe4c1ec> /private/var/containers/Bundle/Application/2009FC3B-4BB5-4550-A8EF-A22EC36F295C/Test.app/Test
+       0x1029d4000 -        0x102a27fff dyld arm64  <d7a0282e93de3a1e981327e84517cc96> /usr/lib/dyld
+       0x187fa9000 -        0x188287fff Foundation arm64  <b17c0d3bcabb321290560791b2521900> /System/Library/Frameworks/Foundation.framework/Foundation
+
+EOF
+
